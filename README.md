@@ -4,8 +4,8 @@ Local demo
 
 ```cmd
 git clone https://github.com/aasf86/upload-appstorage
-npm install
 cd upload-appstorage\
+npm install
 npm start
 ```
 
