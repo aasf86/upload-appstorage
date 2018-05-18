@@ -1,0 +1,15 @@
+{
+  "name": "upload-appstorage",
+  "version": "1.0.0",
+  "description": "```js\r function uploadFile (file) {\r \treturn new Promise( (resolve, reject) => {\r \t\tconst xhr = new XMLHttpRequest();\r \t\tlet baseUrl = 'http://<domain>/upload/';\r \t\tlet urlFinal = baseUrl + Math.random().toString().replace('.', '')+'/'+ file.name;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "@aasf86",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
