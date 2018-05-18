@@ -14,7 +14,7 @@ npm start
 function uploadFile (file) {
 	return new Promise( (resolve, reject) => {
 		const xhr = new XMLHttpRequest();
-		let baseUrl = 'http://<domain>/upload/';
+		let baseUrl = 'http://<domain>/upload/';//substituir por sua rota que irá fazer o upload
 		let urlFinal = baseUrl + Math.random().toString().replace('.', '')+'/'+ file.name;
 
 		console.log('urlFinal', urlFinal);
